@@ -137,7 +137,6 @@ Trước khi nộp, sinh viên cần có:
 - `tests/` có ít nhất 5 test
 - có negative test cho `tamper` và `wrong key`
 - `logs/` có ít nhất 1 file minh chứng thật
-- - đã hoàn tất dọn dẹp placeholder trong toàn bộ repo
 
 ## 10. Lưu ý kỹ thuật
 

@@ -81,9 +81,9 @@ grep -E -i -q 'cin\s*>>|getline\s*\(' $SOURCE_FILES \
   || fail "Chưa thấy dấu hiệu nhập từ bàn phím trong source code."
 pass "Có dấu hiệu nhập dữ liệu từ bàn phím trong source code."
 
-if grep -R -n "TODO_STUDENT" README.md report-1page.md tests/; then
-  fail "Vẫn còn placeholder TODO_STUDENT trong README/report/tests."
+if grep -R -n "" README.md report-1page.md tests/; then
+  fail "Vẫn còn placeholder  trong README/report/tests."
 fi
-pass "Không còn placeholder TODO_STUDENT trong README/report/tests."
+pass "Không còn placeholder  trong README/report/tests."
 
 echo "[SUCCESS] Repo đáp ứng bộ kiểm tra nộp bài cơ bản cho FIT4012 Lab 4 AES."
